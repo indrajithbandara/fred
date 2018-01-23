@@ -23,3 +23,7 @@ do_this = [
 ]
 
 do_this.each { |this| puts "#{this} world"}
+
+# Boucle 4
+
+(1..10).each { |i| puts "Hello world " + i.to_s}
